@@ -1,4 +1,4 @@
-package IO.copyFiles;
+package io_copy_files;
 
 import org.apache.commons.io.FileUtils;
 
