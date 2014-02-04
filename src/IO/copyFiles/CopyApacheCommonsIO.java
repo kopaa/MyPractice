@@ -10,6 +10,8 @@ import java.io.IOException;
  * Date: 23.11.13
  */
 public class CopyApacheCommonsIO implements FileCopy {
+
+    @Override
     public void copyFiles(File source, File dest) throws MyException {
         try {
             FileUtils.copyFile(source, dest);

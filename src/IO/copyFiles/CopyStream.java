@@ -7,6 +7,8 @@ import java.io.*;
  * Date: 23.11.13
  */
 public class CopyStream implements FileCopy {
+
+    @Override
     public void copyFiles(File source, File dest) throws MyException {
         InputStream input = null;
         OutputStream output = null;

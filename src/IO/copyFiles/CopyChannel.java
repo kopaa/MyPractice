@@ -8,6 +8,8 @@ import java.nio.channels.FileChannel;
  * Date: 23.11.13
  */
 public class CopyChannel implements FileCopy {
+
+    @Override
     public void copyFiles(File source, File dest) throws MyException {
         FileChannel inputChannel = null;
         FileChannel outputChannel = null;
